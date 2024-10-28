@@ -17,8 +17,8 @@ import java.util.stream.Collectors;
 import com.Ahmet.models.Genre;
 
 public class MovieService {
-    private static final String API_KEY = "8fd263d940ca44a83f87d3dbdece144c";
-    private static final String BASE_URL = "https://api.themoviedb.org/3/";
+    private static final String API_KEY = "YOUR_API_KEY_HERE";
+    private static final String BASE_URL = "YOUR_URL_HERE";
 
     private OkHttpClient client;
     private Map<Integer, String> genreMap;
